@@ -2,16 +2,14 @@
 
 int main(void)
 {
-    int ag = 1;
-    int y;
+    int i;
+    int temp = 0;
 
-    while (ag != 0)
+    for (i = 0; i < 5; i++)
     {
-        y = 3;
-        ag = 0;
+        temp++;
+        printf("%d\n", temp);
     }
-
-    y = 4;
 
     return 0;
 }
